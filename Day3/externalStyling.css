@@ -1,0 +1,36 @@
+h1 {
+    color: purple;
+    background-color: white;
+    padding: 10px,20px,10px,20px;
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: normal;
+    border: 20px;
+    border-radius: 5px;
+    margin-bottom: auto;
+    }
+    p {
+        color: skyblue;
+        background-image: none;
+        border: 1px dotted orange;
+        border-radius: 5px;
+        align-items: center;
+        padding: auto;
+
+
+        
+    }
+
+    h2{
+        color: red;
+        background-color: rgb(53, 10, 110);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        font-variant: normal;
+        padding: 100px,100px;
+        margin: 100px;
+        height: 100px;
+        width: 100px;
+
+    }
+
