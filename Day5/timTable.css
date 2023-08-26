@@ -1,0 +1,13 @@
+th {
+    border: 5px;
+    background-color: burlywood;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2px;
+
+}
+td{
+    border: 5px;
+    border-radius: 4px;
+    background-color: rgb(231, 217, 231);
+}
