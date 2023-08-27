@@ -1,0 +1,22 @@
+.item :hover {
+    padding: 5px;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    color: violet;
+}
+input {
+    padding: 5px;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    
+}
+
+button {
+    color: black;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    padding: 5px;
+}
