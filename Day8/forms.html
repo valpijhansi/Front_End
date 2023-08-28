@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+   <h1>Register Here</h1>
+
+    <form action="/forms.html" target="_blank" autocomplete="on">
+        <label for="fname">FirstName :</label><br>
+         <input type="text" name="fname" placeholder="john"><br>
+        <label for="lname"> LastName :</label><br>
+        <input type="text" name="lname" placeholder="smith"><br>
+        <label for="mail"> Email :</label><br>
+        <input type="Mail_id" name="mail" placeholder="jhan@gmail.com"><br>
+        <label for="pass">Password :</label><br>
+         <input type="password" name="pass" id="password" pattern="[A-Z]{1}-[a-z]{3}-[@]{1}">
+
+        <br>
+        <label for="pass1">ConfirmPassword :</label><br>
+        <input type="password" name="pass1" id="password" pattern="[A-Z]{1}-[a-z]{3}-[@]{1}"><br>
+        <label for="gender">Gender :</label><br>
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" id="Male" value="Male">
+        <label for="Female">Female</label>
+        <input type="radio" name="gender" id="Female" value="Female"><br>
+        <label for="birthday">Date of Birth</label><br>
+        <input type="date" id="birthdayMonth" name="birthYear"><br>
+        <label for="country_code">Country code:</label><br>
+        <input type="text" id="country_code" name="country_code"  pattern="[A-Za-z]{3}" title="Three letter country code"><br>
+ 
+        <label for="phone">Enter your phone number:</label><br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+        <label for="phone">Enter your Alternate number:</label><br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+
+
+        
+        
+        <br>
+        <h3>Required Skills</h3>
+        <input type="checkbox" id="sub1" name="Java" value="Java">
+        <label for="sub1"> Knowledge on Java </label><br>
+        <input type="checkbox" id="sub2" name="html" value="Html">
+        <label for="sub2"> HTML&CSS</label><br>
+        <input type="checkbox" id="sub3" name="css" value="Css">
+        <label for="sub3">SQL</label><br>
+        <label for="roles">Choose the Role</label>
+        <select name="role" id="roles">
+            <option value="Domain Roles">Domain Roles</option>
+            <option value="Technical Roles">Technical Roles</option>
+            <option value="Management Roles">Management Roles</option>
+        </select><br><br>
+         <p><b> What do know about the company ?</b></p>
+        <textarea name="About the role" id="1" cols="3" rows="10" style="height: 100px; width: 300px;"></textarea><br>
+      <pre>Already you have account<button>Login</button>
+      </pre>
+        <pre>New User<button>SignUp</button></pre><br>
+        <button>Submit</button>
+
+    </form>
+    
+</body>
+</html>
