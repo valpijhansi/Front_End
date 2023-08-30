@@ -1,0 +1,28 @@
+#para{
+    color: green;
+    text-align: center;
+    box-sizing: content-box;
+
+}
+.center {
+    text-align: center;
+    color: orange;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1,h2,p{
+    text-align: center;
+    color: skyblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+div,div,p{
+    align-items: center;
+    color: violet;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: skyblue;
+}
+div > p{
+    background-color: lightgreen;
+}
