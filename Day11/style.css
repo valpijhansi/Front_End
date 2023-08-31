@@ -1,0 +1,13 @@
+body{
+    background-color: lightblue;
+    align-items: center;
+}
+h1 {
+    color: red;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    margin: auto;
+    border: 10px;
+    border-radius: 5px;
+}
