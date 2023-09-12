@@ -15,3 +15,26 @@ function fun1(){
     document.body.appendChild(image);
 
 }
+let image=document.getElementsByTagName('img')[0];
+let btn =document.getElementsByTagName('button');
+let i=0;
+
+function bulb() {
+    if(i%2==0) {
+        image.setAttribute('src',"bulbon.gif");
+        
+    }
+
+    i++;
+
+}
+
+function bulb1() {
+
+    if(i%2!=0) {
+
+        image.setAttribute('src',"bulbOff.png");
+    
+    }
+    i++;
+}
