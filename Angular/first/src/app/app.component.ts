@@ -10,4 +10,12 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'first';
+  product:any[]=[];
+
+  constructor(){
+    this.product[
+      { }
+    ]
+
+  }
 }

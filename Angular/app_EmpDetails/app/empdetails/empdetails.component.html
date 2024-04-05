@@ -1,0 +1,39 @@
+<h1>Employee Management Screen</h1><br><br>
+
+<table>
+
+    <thead>
+        <tr>
+            <td>EmployeeId</td>
+            <td>EmployeeName</td>
+            <td>Gender</td>
+            <td>Title</td>
+            <td>Salary</td>
+            <td>Department</td>
+            <td>Address</td>
+            <td>DOB</td>
+        </tr>
+    </thead>
+
+
+    <tbody>
+
+        <tr *ngFor="let emp of employees">
+
+                <td>{{emp.empid}}</td>
+                <td>{{emp.empname}}</td>
+                <td>{{emp.gender}}</td>
+                <td>{{emp.title}}</td>
+                <td>{{emp.salary}}</td>
+                <td>{{emp.department}}</td>
+                <td>{{emp.address}}</td>
+                <td>{{emp.dob}}</td>
+
+        </tr>
+    </tbody>
+
+
+</table>
+
+<br>
+<button (click)="getLatestData()"> Refresh </button>
